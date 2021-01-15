@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+            integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Solid Weather</title>
+    </head>
+    <body>
+        <div class="app">
+            <header>
+                <div class="left">
+                    <i class="fas fa-box-open"></i>
+                    <h2 class="logo">Solid weather</h2>
+                </div>
+            </header>
+            <main>
+                <div class="content">
+                    <div class="srch">
+                        <input
+                            class="srch-input"
+                            type="text"
+                            placeholder="Search"
+                        />
+                    </div>
+                    <div class="hiden result-box">
+                        <div class="climate">
+                            <div class="box1"></div>
+                            <div class="location"></div>
+                            <div class="box2"></div>
+                            <div class="weatherType"></div>
+                            <div class="box3">
+                                <span>
+                                    <p>Humidity</p>
+                                    <div class="humidity"></div>
+                                </span>
+                                <span>
+                                    <p>Wind Speed</p>
+                                    <div class="wind"></div>
+                                </span>
+                                <span>
+                                    <p>Pressure</p>
+                                    <div class="pressure"></div>
+                                </span>
+                                <span>
+                                    <p>Visibilty</p>
+                                    <div class="visibilty"></div>
+                                </span>
+                                <span>
+                                    <p>Min temp</p>
+                                    <div class="min"></div>
+                                </span>
+                                <span>
+                                    <p>Max temp</p>
+                                    <div class="max"></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="forecast">
+                            <div class="heading">7 Day Forecast</div>
+                            <div class="collection">
+                                <div class="box">
+                                    <div class="tin1"></div>
+                                    <div class="date date1"></div>
+                                    <div class="temp">
+                                        <div class="tin fmin1"></div>
+                                        <div class="tin fmax1"></div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="tin2"></div>
+                                    <div class="date date2"></div>
+                                    <div class="temp">
+                                        <div class="tin fmin2"></div>
+                                        <div class="tin fmax2"></div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="tin3"></div>
+                                    <div class="date date3"></div>
+                                    <div class="temp">
+                                        <div class="tin fmin3"></div>
+                                        <div class="tin fmax3"></div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="tin4"></div>
+                                    <div class="date date4"></div>
+                                    <div class="temp">
+                                        <div class="tin fmin4"></div>
+                                        <div class="tin fmax4"></div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="tin5"></div>
+                                    <div class="date date5"></div>
+                                    <div class="temp">
+                                        <div class="tin fmin5"></div>
+                                        <div class="tin fmax5"></div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="tin6"></div>
+                                    <div class="date date6"></div>
+                                    <div class="temp">
+                                        <div class="tin fmin6"></div>
+                                        <div class="tin fmax6"></div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="tin7"></div>
+                                    <div class="date date7"></div>
+                                    <div class="temp">
+                                        <div class="tin fmin7"></div>
+                                        <div class="tin fmax7"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="bottom">
+                    <p>All Right Reserved to SOLID</p>
+                </div>
+            </footer>
+            <script src="app.js"></script>
+        </div>
+    </body>
+</html>
